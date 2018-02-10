@@ -1,0 +1,26 @@
+html, body {
+    padding: 20px 30px;
+    background: url(suru.jpg) no-repeat;
+}
+
+div#panel {
+    background: -moz-linear-gradient(rgb(19, 132, 197), rgb(25, 129, 189));
+    margin: 0px 120px 0px 120px;
+    padding: 12px;
+    color: white;
+    font-size: 16px;
+    font-family: Verdana, sans-serif;
+    font-weight: bold;
+    box-shadow: black 0px 0px 10px;
+}
+
+div#area-trabalho {
+    border: 0px solid black;
+    margin: 0px 120px 0px 120px;
+    box-shadow: black 0px 0px 10px;
+    background-color: rgb(243, 233, 220);
+    padding: 10px 40px;
+    font-size: 18px;
+    font-family: Verdana, sans-serif;
+    position: relative;
+}
