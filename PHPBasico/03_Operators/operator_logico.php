@@ -17,7 +17,7 @@ echo "<br>";
 var_dump($b or $b);//false
 echo "<br>";
 
-var_dump($a xor $b)//true
+var_dump($a xor $b);//true
 echo "<br>";
 
 $c = true && true;//true
