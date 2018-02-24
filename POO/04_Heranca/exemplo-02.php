@@ -26,8 +26,6 @@ class Pai {
         $this->nome = $nome;
     }
 
-   
-
 }
 
 class Filha extends Pai {
