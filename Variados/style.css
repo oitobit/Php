@@ -1,0 +1,57 @@
+/* reset */
+html, body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* formatação do menu */
+header > nav {
+    background-color: #333;
+    color: #fff;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li.nav-list {
+    display: inline-block;
+    margin: 16px 12px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+li.nav-list-revest {
+    float: right;
+    margin: 16px 12px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+li.nav-list:hover {
+    color: lightgreen;
+}
+
+li.nav-list-revest:hover {
+    color: lightgreen;
+}
+
+/* formatação do counters */
+div.box {
+    background-color: #f1f1f1;
+    padding: 20px;  
+}
+
+ol {
+    counter-reset: section;
+    list-style-type: none;
+}
+
+li.list::before {
+    counter-increment: section;
+    content: counters(section,". ") " ";
+    border: 5px solid green;
+    border-radius: 50%;
+    background-color: green;
+    line-height: 2;
+}
